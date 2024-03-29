@@ -4,7 +4,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="@color/backgroundWhite"
+    android:backgroundTint="@color/backgroundDark"
     android:orientation="vertical"
     android:paddingStart="20dp"
     android:paddingTop="80dp"

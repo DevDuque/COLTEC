@@ -17,14 +17,6 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ImageView logoColtec;
-
-    private TextView loginLabel;
-    private EditText loginInput;
-    private EditText passwordInput;
-    private Button loginButton;
-    private TextView noAccessLink;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,45 +24,46 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Logo & Label
-        logoColtec = findViewById(R.id.coltec_logo);
-        loginLabel = findViewById(R.id.login_label);
+        ImageView logoColtec = (ImageView) findViewById(R.id.coltec_logo);
+        TextView loginLabel = (TextView) findViewById(R.id.login_label);
 
-        // Form
-        loginInput = findViewById(R.id.login_input);
-        passwordInput = findViewById(R.id.password);
-        loginButton = findViewById(R.id.login_button);
+        Button loginButton = (Button) findViewById(R.id.login_button);
+        loginButton.setOnClickListener(onClickLogin());
 
-        noAccessLink = findViewById(R.id.no_access);
-
-        loginButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String loginStr = loginInput.getText().toString();
-                String passwordStr = passwordInput.getText().toString();
-
-                // Conditional to Login
-                if(loginStr.equals("2023954724") && passwordStr.equals("duque123")) {
-
-                    // Creating the navigation
-                    Intent intent = new Intent(getBaseContext(), HomePageActivity.class);
-
-                    // Create bundle to get the text for the next page
-                    Bundle params = new Bundle();
-                    params.putString("name", loginStr);
-                    intent.putExtras(params);
-
-                    // Navigate to the next page
-                    startActivity(intent);
-                } else {
-                    alert("Login ou senha incorretos! Tente novamente.");
-                }
-            }
-        });
+        TextView noAccessLink = (TextView) findViewById(R.id.no_access);
     }
 
     private void alert(String s) {
         Toast.makeText(this, s, Toast.LENGTH_SHORT).show();
     }
 
+    private View.OnClickListener onClickLogin() {
+        return new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Pegando os campos de preenchimento
+                TextView txtLogin = (TextView) findViewById(R.id.login_input);
+                TextView txtSenha = (TextView) findViewById(R.id.password);
 
+                // Salvando esses dados que foram retornados dos respectivos campos
+                String login = txtLogin.getText().toString();
+                String senha = txtSenha.getText().toString();
+
+                // Fazendo um condicional para logar
+                if (login.equals("Duque") && senha.equals("coltec")) {
+                    //Navega para a próxima tela
+                    Intent intent = new Intent(getBaseContext(), HomePageActivity.class);
+
+                    // Cria o bundle e o insere na nova Intent
+                    Bundle params = new Bundle();
+                    params.putString("nome", txtLogin.getText().toString());
+                    intent.putExtras(params);
+
+                    startActivity(intent); //navega para a próxima tela
+                } else { //Mostra mensagem de login incorreto
+                    alert("Login ou senha incorretos");
+                }
+            }
+        };
+    }
 }
