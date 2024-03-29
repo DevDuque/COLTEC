@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">COLTEC</string>
+
+    <!--    Login & Sign-In page    -->
+        <!--    Labels        -->
+    <string name="loginLabel"> ENTRAR </string>
+    <string name="signLabel"> ENTRE O CÓDIGO DE REGISTRO </string>
+
+        <!--    Placeholders    -->
+    <string name="loginPlaceholder"> Entre a sua matrícula </string>
+    <string name="passwordPlaceholder"> Entre a sua senha </string>
+
+        <!--    Options    -->
+    <string name="noAccess"> Não tem acesso? Clique aqui </string>
+    <string name="noCode"> Não recebeu o código? Clique aqui </string>
+    <string name="hasAccess"> Já tem conta? Clique aqui </string>
+
+
+    <!--    All Pages    -->
+        <!--    Titles  -->
+    <string name="classAvailable"> Matérias Disponíveis </string>
+    <string name="classWorks"> Atividades da matéria </string>
+    <string name="classBooks"> Livros e Apostilas </string>
+
+        <!--    UserSection -->
+    <string name="searchFunc"> Procurar funcionalidades </string>
+    <string name="welcomeLabel"> Seja bem-vindo ao COLTEC </string>
+
+        <!--    DocumentsCard   -->
+    <string name="sendDocs"> Entregar documentos pendentes </string>
+    <string name="docsDescription"> Tem documentos pendentes? Clique aqui para saber! </string>
+
+        <!--    ClassesCards    -->
+    <string name="moduleTier"> Módulo III </string>
+    
+            <!--    Android Classes -->
+    <string name="androidDevClass"> Desenvolvimento Android </string>
+    <string name="androidDevTeacher"> Márcio Júnior Nunes </string>
+
+
+            <!--    IOS Classes -->
+    <string name="iosDevClass"> Desenvolvimento IOS </string>
+    <string name="iosDevTeacher"> Virgínia Fernandes Mota </string>
+
+</resources>

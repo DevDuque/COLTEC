@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    White theme    -->
+    <color name="backgroundWhite"> #E6EDF3 </color>
+    <color name="textBlack"> #222021 </color>
+    <color name="blueWhite"> #044A84 </color>
+    <color name="inputWhite"> #5786AD </color>
+    <color name="footerWhite"> #2C2A2B </color>
+    
+    <!--    Black theme    -->
+    <color name="backgroundDark"> #2C2A2B </color>
+    <color name="textWhite"> #E6EDF3 </color>
+    <color name="inputDark"> #5786AD </color>
+    <color name="blueDark"> #03355E </color>
+    <color name="footerDark"> #ECEBEC </color>
+    <color name="textBlue"> #8CACC6 </color>
+
+
+    <color name="black"> #000</color>
+    <color name="white">#FFF</color>
+</resources>
