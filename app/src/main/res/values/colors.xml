@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--    White theme    -->
-    <color name="backgroundWhite"> #E6EDF3 </color>
-    <color name="textBlack"> #222021 </color>
-    <color name="blueWhite"> #044A84 </color>
-    <color name="inputWhite"> #5786AD </color>
-    <color name="footerWhite"> #2C2A2B </color>
+    <!--    Light theme    -->
+    <color name="backgroundColorLight"> #E6EDF3 </color>
+    <color name="textLight"> #222021 </color>
+    <color name="blueLight"> #044A84 </color>
+    <color name="inputLight"> #5786AD </color>
+    <color name="footerLight"> #2C2A2B </color>
     
-    <!--    Black theme    -->
-    <color name="backgroundDark"> #2C2A2B </color>
-    <color name="textWhite"> #E6EDF3 </color>
+    <!--    Dark theme    -->
+    <color name="backgroundColorDark"> #2C2A2B </color>
+    <color name="textDark"> #E6EDF3 </color>
     <color name="inputDark"> #5786AD </color>
     <color name="blueDark"> #03355E </color>
     <color name="footerDark"> #ECEBEC </color>

@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroundWhite"
+    android:background="@color/backgroundColorLight"
     android:orientation="vertical"
 
     tools:context=".HomePageActivity">
@@ -14,7 +14,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/blueWhite"
+        android:background="@color/blueLight"
 
         android:paddingStart="20dp"
         android:paddingTop="60dp"
@@ -55,7 +55,7 @@
             android:text="@string/welcomeLabel"
 
             android:textSize="20sp"
-            android:textColor="@color/backgroundWhite"
+            android:textColor="@color/backgroundColorLight"
             android:textStyle="bold"
 
             android:layout_below="@id/name_label"
@@ -74,8 +74,8 @@
             android:layout_alignStart="@id/welcome_label"
             android:layout_marginTop="40dp"
 
-            android:textColor="@color/backgroundWhite"
-            android:textColorHint="@color/backgroundWhite"
+            android:textColor="@color/backgroundColorLight"
+            android:textColorHint="@color/backgroundColorLight"
             android:textSize="20sp"
 
             android:background="@drawable/input_rules"/>

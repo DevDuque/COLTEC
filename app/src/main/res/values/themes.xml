@@ -1,11 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-<!-- Base application theme. -->
-<style name="Base.Theme.COLTEC" parent="Theme.Material3.DayNight.NoActionBar">
-    <!-- Customize your light theme here. -->
-    <item name="backgroundColor">@color/backgroundWhite</item>
-</style>
+    <!-- Light Theme -->
+    <style name="Theme.COLTEC.Light" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Use colors from colors.xml -->
+        <item name="android:windowBackground">@color/backgroundColorLight</item>
+    </style>
 
-<style name="Theme.COLTEC" parent="Base.Theme.COLTEC">
-    <item name="backgroundColor">@color/backgroundDark</item>
-</style>
+    <!-- Dark Theme -->
+    <style name="Theme.COLTEC.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Use colors from colors.xml -->
+        <item name="android:windowBackground">@color/backgroundColorDark</item>
+    </style>
 </resources>
