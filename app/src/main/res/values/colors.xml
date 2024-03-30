@@ -3,15 +3,15 @@
     <!--    Light theme    -->
     <color name="backgroundColorLight"> #E6EDF3 </color>
     <color name="textLight"> #222021 </color>
-    <color name="blueLight"> #044A84 </color>
-    <color name="inputLight"> #5786AD </color>
-    <color name="footerLight"> #2C2A2B </color>
+    <color name="blueLight"> #03355E </color>
+    <color name="inputLight"> #366E9D </color>
+    <color name="footerLight"> #222021 </color>
     
     <!--    Dark theme    -->
-    <color name="backgroundColorDark"> #2C2A2B </color>
+    <color name="backgroundColorDark"> #222021 </color>
     <color name="textDark"> #E6EDF3 </color>
     <color name="inputDark"> #5786AD </color>
-    <color name="blueDark"> #03355E </color>
+    <color name="blueDark"> #044A84 </color>
     <color name="footerDark"> #ECEBEC </color>
     <color name="textBlue"> #8CACC6 </color>
 
