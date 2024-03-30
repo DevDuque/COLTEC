@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom attributes -->
+    <attr name="windowBackground" format="reference|color" />
+    <attr name="viewTextColor" format="color" />
+    <attr name="editTextStyle" format="reference" />
+    <attr name="linearLayoutBackgroundColor" format="reference|color" />
+</resources>

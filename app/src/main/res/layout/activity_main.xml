@@ -4,8 +4,11 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="?android:attr/windowBackground"
+
+    android:background="?attr/windowBackground"
+
     android:orientation="vertical"
+
     android:paddingStart="20dp"
     android:paddingTop="80dp"
     android:paddingEnd="20dp"
@@ -15,20 +18,22 @@
     <ImageView android:id="@+id/coltec_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:layout_gravity="center_horizontal"
+
         android:src="@drawable/coltec_logo"
-        android:contentDescription="@string/app_name"/>
+        android:contentDescription="@string/app_name"
+        />
 
     <!-- Login Label -->
     <TextView android:id="@+id/login_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
+        android:text="@string/loginLabel"
+        android:textColor="?attr/viewTextColor"
         android:textSize="24sp"
         android:textStyle="bold"
-
-        android:textColor="@color/textLight"
-        android:text="@string/loginLabel"
 
         android:layout_marginTop="60dp"
         android:layout_marginBottom="20dp"
@@ -46,7 +51,7 @@
         android:textColor="@color/backgroundColorLight"
         android:textColorHint="@color/backgroundColorLight"
 
-        android:background="@drawable/input_rules"
+        style="?attr/editTextStyle"
         />
 
     <!-- Password Input -->
@@ -63,7 +68,7 @@
         android:textColor="@color/backgroundColorLight"
         android:textColorHint="@color/backgroundColorLight"
 
-        android:background="@drawable/input_rules"
+        style="?attr/editTextStyle"
         />
 
     <!-- Login Button -->

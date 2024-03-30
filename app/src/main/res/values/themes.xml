@@ -1,13 +1,37 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
     <!-- Light Theme -->
     <style name="Theme.COLTEC.Light" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Use colors from colors.xml -->
-        <item name="android:windowBackground">@color/backgroundColorLight</item>
+
+        <item name="windowBackground">@color/backgroundColorLight</item>
+
+        <item name="viewTextColor"> @color/textLight </item>
+
+        <item name="editTextStyle">@style/InputEditTextLight</item>
+
+        <item name="linearLayoutBackgroundColor">@color/blueLight</item>
+    </style>
+
+    <!-- Style for EditText in Light Theme -->
+    <style name="InputEditTextLight" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/input_light</item>
     </style>
 
     <!-- Dark Theme -->
     <style name="Theme.COLTEC.Dark" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Use colors from colors.xml -->
-        <item name="android:windowBackground">@color/backgroundColorDark</item>
+        <!-- Background color -->
+        <item name="windowBackground">@color/backgroundColorDark</item>
+
+        <item name="viewTextColor"> @color/textDark </item>
+
+        <item name="editTextStyle">@style/InputEditTextDark</item>
+
+        <item name="linearLayoutBackgroundColor">@color/blueDark</item>
     </style>
+
+    <!-- Style for EditText in Dark Theme -->
+    <style name="InputEditTextDark" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/input_dark</item>
+    </style>
+
 </resources>
