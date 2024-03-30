@@ -9,7 +9,7 @@
 
         <item name="editTextStyle">@style/InputEditTextLight</item>
 
-        <item name="linearLayoutBackgroundColor">@color/blueLight</item>
+        <item name="dividerColor">@color/blueLight</item>
     </style>
 
     <!-- Style for EditText in Light Theme -->
@@ -26,7 +26,7 @@
 
         <item name="editTextStyle">@style/InputEditTextDark</item>
 
-        <item name="linearLayoutBackgroundColor">@color/blueDark</item>
+        <item name="dividerColor">@color/blueDark</item>
     </style>
 
     <!-- Style for EditText in Dark Theme -->

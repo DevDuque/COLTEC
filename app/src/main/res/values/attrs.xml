@@ -4,5 +4,5 @@
     <attr name="windowBackground" format="reference|color" />
     <attr name="viewTextColor" format="color" />
     <attr name="editTextStyle" format="reference" />
-    <attr name="linearLayoutBackgroundColor" format="reference|color" />
+    <attr name="dividerColor" format="color" />
 </resources>
